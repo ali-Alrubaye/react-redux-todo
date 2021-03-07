@@ -1,0 +1,25 @@
+GET http://localhost:3004/todo
+Content-Type: application/json
+
+
+
+###
+
+PUT  http://localhost:3004/todo
+Content-Type: application/json
+
+ {
+    "id": "5cdf2dd-6258-8c41-1130-82c604e34b",
+    "name": "Lean JavaScript",
+    "isFinished": true
+  }
+
+###
+
+
+PUT  http://localhost:3004/todo/toFinished
+Content-Type: application/json
+
+ {
+    "isFinished": false
+}
